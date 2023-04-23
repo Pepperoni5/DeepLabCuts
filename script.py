@@ -2,7 +2,7 @@ import csv
 import math
 
 ###################################################################################################
-# AI Generated Code LOL
+# code
 
 # adjust for more or less precision of intersecting circles
 circle_length = 4.5
@@ -87,7 +87,7 @@ def detect_identical_pairs(individual_name, row_number, coordinates):
 
 results = []
 # read csv file locally
-with open("input.csv") as csvfile:
+with open("00258data.csv") as csvfile:
     reader = csv.reader(csvfile) # change contents to floats
     for row in reader: # each row is a list
         results.append(row)
